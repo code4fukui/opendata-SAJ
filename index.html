@@ -1,0 +1,29 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><link rel="icon" href="data:">
+<title>一般社団法人ソフトウェア協会(SAJ) 会員一覧</title>
+</head><body>
+<h1>一般社団法人ソフトウェア協会(SAJ) 会員一覧</h1>
+
+<script type="module" src="https://code4sabae.github.io/js/csv-viewer.js"></script>
+<csv-viewer src=./saj-memberlist.csv></csv-viewer>
+
+<style>
+csv-viewer > div {
+  overflow: scroll;
+}
+csv-viewer th, csv-viewer td {
+  white-space: nowrap;
+  border: 1px solid black;
+  padding: .1em .2em;
+}
+table {
+  border-collapse: collapse;
+}
+</style>
+
+<hr>
+<div id='footer'>
+Data: <a href=https://archive.saj.or.jp/memberlist/>会員リスト | SAJ 一般社団法人ソフトウェア協会</a><br>
+App: <a href=https://github.com/code4fukui/opendata-saj>src on GitHub</a><br>
+</div>
+</body>
+</html>
